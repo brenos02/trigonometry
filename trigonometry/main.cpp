@@ -7,8 +7,13 @@
 //
 
 #include <iostream>
-
+#include "triangle.hpp"
 int main(int argc, const char * argv[]) {
-    std::cout << "Hello, World!\n";
+    float c;
+    triangle t;
+    t.a=10;
+    t.b=16;
+    c = t.calculate_c();
+    std::cout << c;
     return 0;
 }
